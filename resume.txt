@@ -1,0 +1,8 @@
+At this point, you’ll have:
+Express backend running in a container.
+React frontend in another container.
+Both deployed in Kubernetes with services for communication.
+command to apply the k8s config backend and frontend 
+
+kubectl apply -f k8s/backend/
+kubectl apply -f k8s/frontend/
