@@ -15,6 +15,7 @@ spec:
       containers:
         - name: backend
           image: localhost:5000/gskube-backend:latest
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 4000
           readinessProbe:
