@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: gskube-frontend:latest
+          image: localhost:5000/gskube-frontend:latest
           ports:
             - containerPort: 3000
           env:
